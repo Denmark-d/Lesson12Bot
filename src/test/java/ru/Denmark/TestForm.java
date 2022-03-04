@@ -18,7 +18,7 @@ public class TestForm extends TestBase {
     @Test
     @Owner("Daniia")
     @DisplayName("заполнение формы")
-    @Tag("1.1")
+    @Tag("our_tests")
     @Step("открываем страницу https://demoqa.com/automation-practice-form")
     void firstTest() {
         System.out.println("First Test");
@@ -62,7 +62,7 @@ public class TestForm extends TestBase {
     @Test
     @Owner("Daniia")
     @DisplayName("Проверка наименования на форме")
-    @Tag("1.2")
+    @Tag("our_tests")
     void checkRegFormName() {
         System.out.println("First Test");
         open("https://demoqa.com/automation-practice-form");
@@ -73,7 +73,7 @@ public class TestForm extends TestBase {
     @Owner("Daniia")
     @Disabled
     @DisplayName("Игнорируем тест")
-    @Tag("1.3")
+    @Tag("our_tests")
     void checkRegFormName1() {
         System.out.println("First Test");
         open("https://demoqa.com/automation-practice-form");

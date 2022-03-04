@@ -55,10 +55,10 @@ tasks.withType(Test) {
     useJUnitPlatform{
         includeTags "properties"
     }
-}
-
-task simple_tests(type: Test) {
-    useJUnitPlatform{
-        includeTags "simple"
-    }
 }*/
+
+task our_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags "our_tests"
+    }
+}
